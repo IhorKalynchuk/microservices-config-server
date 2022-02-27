@@ -1,12 +1,5 @@
 spring:
-  application:
-    name: ORDER-SERVICE
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
-    url: jdbc:mysql://localhost:3306/order_service
-    username: root
-    password: root
     initialization-mode: always
   jpa:
     properties:
@@ -15,6 +8,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-test:
-  name: "test"
-ihor: 25
